@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HELPET" id="16B53F56-4B6A-476C-7770-C7781BB165D2" version="3.5">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-18 02:24:16 UTC</createdTime>
+<ownerDesignName>HELPET</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16B53F56-4B6A-476C-7770-C7781BB165D2</designId>
+</OSDM_Design>
