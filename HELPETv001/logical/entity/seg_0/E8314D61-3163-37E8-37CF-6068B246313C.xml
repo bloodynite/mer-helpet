@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8314D61-3163-37E8-37CF-6068B246313C" name="CIUDAD">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:22:30 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="EF854621-8DD5-ECA4-3DF4-1B068FB353A3">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:22:38 UTC</createdTime>
+<comment><![CDATA[EJ:
+CI0003]]></comment>
+<commentInRDBMS><![CDATA[EJ:
+CI0003]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_ciudad" id="F787D08D-A99E-8495-B1BE-100C0983ACB7">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:23:08 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_provincia" id="0F17D3A5-74E8-F753-8136-5D4FF2F150B6">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:26:23 UTC</createdTime>
+<comment><![CDATA[EJ:
+P001]]></comment>
+<generatorID>730304BB-CC43-6D25-611D-EC15B9EF5540</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>8262F524-9F77-3B2C-750B-2EF12A5134CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3006E79-2AEF-6C26-8E98-0736E0B8698E" name="CIUDAD PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:23:05 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF854621-8DD5-ECA4-3DF4-1B068FB353A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

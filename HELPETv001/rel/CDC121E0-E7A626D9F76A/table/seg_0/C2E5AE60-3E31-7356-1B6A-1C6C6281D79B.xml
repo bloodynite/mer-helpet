@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2E5AE60-3E31-7356-1B6A-1C6C6281D79B" name="REGION">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:03:39 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="B9CC81D2-5BAE-7809-6607-07CBAB6C2CA3">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:04:13 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_region" id="523705A7-99A0-6F0D-D565-B28A3DC1F741">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:04:13 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_nominal" id="F76EC13D-AF9C-415E-9F94-5B443A9DF1FA">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:06:10 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C93D49C-D6FA-6A3E-2210-B8FCED427427" name="REGION_PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:06:10 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9CC81D2-5BAE-7809-6607-07CBAB6C2CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

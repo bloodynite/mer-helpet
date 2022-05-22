@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D5696C-52D6-D846-60D0-E2FCA90692C1" name="CIUDAD">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:06:43 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="64DE80C2-F6AF-7029-09E0-0F5899C822AD">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:07:05 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_ciudad" id="98EEC6AB-C238-4B85-F85D-A709B9C1444B">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:07:05 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46C88802-609C-F11F-FC86-83A1A785F122" name="CIUDAD_PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 19:13:48 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64DE80C2-F6AF-7029-09E0-0F5899C822AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8F59882-024F-495E-C9F9-9EBB85E6E4DD" name="USUARIO">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:43:51 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="FD9839D9-A17E-FE10-DE7D-C94758093177">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:49:27 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="0FCDA3E2-ACA2-56E8-38F2-824CEB5C1A14">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:46:05 UTC</createdTime>
+<comment><![CDATA[UNIQUE]]></comment>
+<commentInRDBMS><![CDATA[UNIQUE]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5D170F1C-2346-A64A-3BCC-48A67F3CA2C5">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:47:34 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="C198C3EF-CC9A-FB7B-F955-19CEE61EA8AB">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:48:45 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fec_nac" id="CAA80B7A-EBD9-DB7E-95E5-315130CC4C69">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:57:06 UTC</createdTime>
+<comment><![CDATA[FORMATO DD-MM-AAAA]]></comment>
+<commentInRDBMS><![CDATA[FORMATO DD-MM-AAAA]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="148D6234-D642-1BED-1F0A-5B33DFD4A9A8">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:58:59 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A7A60D2-EA0E-0138-C402-BDB8EF6619B9" name="Usuario_PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 18:46:05 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD9839D9-A17E-FE10-DE7D-C94758093177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
