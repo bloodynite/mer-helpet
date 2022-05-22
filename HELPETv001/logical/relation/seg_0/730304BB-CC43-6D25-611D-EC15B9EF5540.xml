@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prov_ciud" directorySegmentName="seg_0" id="730304BB-CC43-6D25-611D-EC15B9EF5540">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:26:23 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<sourcePk>0D10078B-2278-5E99-6D91-8B724C9269A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7749E04-D8CF-13B4-B883-8EEA4E8C782D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E8314D61-3163-37E8-37CF-6068B246313C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

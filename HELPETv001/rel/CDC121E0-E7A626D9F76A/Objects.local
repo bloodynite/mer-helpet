@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="13D5696C-52D6-D846-60D0-E2FCA90692C1" name="CIUDAD" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8A2E0EDA-DD2C-3FC0-70D2-294212E964B0" name="COMUNA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="45BD0D53-09F2-E058-C542-E7881F0D9052" name="PROVINCIA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C2E5AE60-3E31-7356-1B6A-1C6C6281D79B" name="REGION" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="E8F59882-024F-495E-C9F9-9EBB85E6E4DD" name="USUARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

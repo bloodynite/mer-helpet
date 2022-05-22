@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C2AB8F2-D364-E4DA-F81F-0EFAD549AFD3" name="MASCOTA">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:45:41 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mascota" id="98EE1EF5-0EDF-A595-2C5B-4A7BB97902CF">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:45:53 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="392027D6-9F07-F888-82F5-24482B06272A">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 22:41:07 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="5210D54A-400A-3546-1E2C-E141E0B12442">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 22:54:17 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tamano" id="A834F07C-8662-402E-79FA-5A4DA5B3D910">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 22:54:26 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_raza" id="AFD9E2BD-5777-F20A-4E56-BED04A0FA4D3">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 23:18:04 UTC</createdTime>
+<generatorID>8A016168-9FE8-7952-8CA0-5A918F708AAC</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>D02FA16C-9CCF-365B-C85A-3C437929C7EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9691D654-26AA-09D7-BAFC-321E64C21F7A" name="MASCOTA PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:46:24 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98EE1EF5-0EDF-A595-2C5B-4A7BB97902CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

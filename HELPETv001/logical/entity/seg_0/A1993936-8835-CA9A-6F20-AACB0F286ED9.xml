@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1993936-8835-CA9A-6F20-AACB0F286ED9" name="PUBLICACION">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:31:01 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_publicacion" id="89DB1322-52BE-3EE1-F9D1-38E5C832075C">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:31:33 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="EC9D6447-0558-F45D-74EA-2A730131D4A6">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:31:59 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="35B34C7B-3E45-FDAA-F259-55A68649300E">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[EJ:
+ELIMINADA: D
+ACTIVA: A
+PAUSADA: P]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img" id="F4DEAC64-098F-992B-8AE2-BEBA920EB2DD">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:34:51 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="79852343-B2C1-9287-C295-901C308C772F">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:37:07 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="6DA743B7-6BF8-6B92-BD6E-9B0B723183AB">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:32:33 UTC</createdTime>
+<generatorID>5C41216D-27FB-E324-793B-6C21A384F365</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>1E698EE4-1247-3AAE-F53F-7912468676F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mascota" id="3AC28EDE-EE4D-3572-8C0B-B18F2235AA1C">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 22:42:07 UTC</createdTime>
+<generatorID>6B24EDCA-85FC-B41C-7626-FCEE94FC415C</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>98EE1EF5-0EDF-A595-2C5B-4A7BB97902CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="6B2BE8A7-6AD9-B80B-6430-E3AF147D8DF5">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 23:24:29 UTC</createdTime>
+<generatorID>D8DE9734-980B-1ADB-B47D-EFB4A4D7BBC4</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>46B71C7A-98E8-3356-F292-0B23332CB516</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="524B3451-749A-6C17-6A3E-BA950A3A284D" name="PUBLICACION PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:57:34 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89DB1322-52BE-3EE1-F9D1-38E5C832075C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

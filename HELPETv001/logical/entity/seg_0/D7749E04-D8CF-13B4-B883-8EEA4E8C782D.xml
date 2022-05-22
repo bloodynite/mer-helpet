@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7749E04-D8CF-13B4-B883-8EEA4E8C782D" name="PROVINCIA">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:20:35 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_provincia" id="8262F524-9F77-3B2C-750B-2EF12A5134CA">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:20:46 UTC</createdTime>
+<comment><![CDATA[EJ:
+P001]]></comment>
+<commentInRDBMS><![CDATA[EJ:
+P001]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_provincia" id="3F7F2B15-455E-8EE0-61E8-51BD2B5E445B">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:21:23 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="EDE83060-AAC2-700B-51C9-A39412A9F6EA">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:25:58 UTC</createdTime>
+<comment><![CDATA[EJ:
+R001]]></comment>
+<generatorID>A79AE632-F132-D10E-85C6-6233E33B9F19</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>C52A8ADC-C859-AEF6-2C2D-48447570E03F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D10078B-2278-5E99-6D91-8B724C9269A2" name="PROVINCIA PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:21:47 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8262F524-9F77-3B2C-750B-2EF12A5134CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

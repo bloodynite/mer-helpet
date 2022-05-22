@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0D4DF24-7030-8671-8173-2EC934F2283A" name="USUARIO">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:11:57 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="1E698EE4-1247-3AAE-F53F-7912468676F3">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:12:18 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="B4A33BA6-086C-792C-4E19-F3038169D7F7">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:12:37 UTC</createdTime>
+<comment><![CDATA[UNIQUE]]></comment>
+<commentInRDBMS><![CDATA[UNIQUE]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="94473BEC-307C-E3FE-F75D-40A2EE48F414">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:13:00 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="D07B6191-A6B9-DF1A-B8A2-8508104B3868">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:13:13 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fec_nac" id="D503DAF1-A4F5-08FA-73E4-6207BF18D012">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:13:34 UTC</createdTime>
+<comment><![CDATA[FORMATO DD-MM-AAAA]]></comment>
+<commentInRDBMS><![CDATA[FORMATO DD-MM-AAAA]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="C8932C13-7FA0-D950-C124-70A102C5090A">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:13:51 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contrasena" id="DF3BA4CA-5B0B-B998-217D-464C31358DCB">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:14:12 UTC</createdTime>
+<comment><![CDATA[CIFRADA]]></comment>
+<commentInRDBMS><![CDATA[CIFRADA]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB2A5580-6B04-0D52-89D6-451ED33B7603" name="USUARIO PK">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:12:35 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E698EE4-1247-3AAE-F53F-7912468676F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

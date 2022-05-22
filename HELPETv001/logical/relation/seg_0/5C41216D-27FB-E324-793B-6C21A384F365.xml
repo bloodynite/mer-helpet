@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="usr_publ" directorySegmentName="seg_0" id="5C41216D-27FB-E324-793B-6C21A384F365">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 21:32:33 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<sourcePk>AB2A5580-6B04-0D52-89D6-451ED33B7603</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tener</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0D4DF24-7030-8671-8173-2EC934F2283A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1993936-8835-CA9A-6F20-AACB0F286ED9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
