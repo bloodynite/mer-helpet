@@ -28,9 +28,49 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha" id="EC9D6447-0558-F45D-74EA-2A730131D4A6">
+<Attribute name="titulo" id="38B16470-C091-F666-1A95-FD91C819DF76">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:31:59 UTC</createdTime>
+<createdTime>2022-05-28 01:28:15 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="1536ECB6-EE2E-6E48-BF24-C32B25CBF624">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-25 04:17:01 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="E35DF60A-86CB-7944-3B3A-BCCE1FF466B5">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-28 01:55:29 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tamano_mascota" id="B6225E8D-5506-9216-C5CE-421D985B501C">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-28 01:47:44 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
@@ -41,23 +81,20 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado" id="35B34C7B-3E45-FDAA-F259-55A68649300E">
+<Attribute name="color_mascota" id="D297EF7D-0F00-16D3-FCF6-2253F421C201">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:59:36 UTC</createdTime>
-<commentInRDBMS><![CDATA[EJ:
-ELIMINADA: D
-ACTIVA: A
-PAUSADA: P]]></commentInRDBMS>
+<createdTime>2022-05-28 01:45:41 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="img" id="F4DEAC64-098F-992B-8AE2-BEBA920EB2DD">
+<Attribute name="imagen" id="F4DEAC64-098F-992B-8AE2-BEBA920EB2DD">
 <createdBy>bloodyNitePC</createdBy>
 <createdTime>2022-05-22 21:34:51 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
@@ -83,6 +120,49 @@ PAUSADA: P]]></commentInRDBMS>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="estado_publ" id="35B34C7B-3E45-FDAA-F259-55A68649300E">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[EJ:
+ELIMINADA: D
+ACTIVA: A
+PAUSADA: P]]></commentInRDBMS>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recompensa" id="FBBA0CA0-C2A5-ED36-36D2-81FA8B4FD1D1">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-25 05:09:56 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="EC9D6447-0558-F45D-74EA-2A730131D4A6">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-22 20:31:59 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_usuario" id="6DA743B7-6BF8-6B92-BD6E-9B0B723183AB">
 <createdBy>bloodyNitePC</createdBy>
 <createdTime>2022-05-22 21:32:33 UTC</createdTime>
@@ -94,24 +174,10 @@ PAUSADA: P]]></commentInRDBMS>
 <referedAttribute>1E698EE4-1247-3AAE-F53F-7912468676F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_mascota" id="3AC28EDE-EE4D-3572-8C0B-B18F2235AA1C">
-<createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 22:42:07 UTC</createdTime>
-<generatorID>6B24EDCA-85FC-B41C-7626-FCEE94FC415C</generatorID>
-<ownerDesignName>HELPETv001</ownerDesignName>
-<engineerTo>
-<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
-</engineerTo>
-<referedAttribute>98EE1EF5-0EDF-A595-2C5B-4A7BB97902CF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
 <dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_tipo" id="6B2BE8A7-6AD9-B80B-6430-E3AF147D8DF5">
 <createdBy>bloodyNitePC</createdBy>
@@ -125,6 +191,38 @@ PAUSADA: P]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="FE247EB0-E737-2FE4-B6DE-FEE589139379">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-28 01:27:38 UTC</createdTime>
+<comment><![CDATA[EJ:
+CO0004]]></comment>
+<generatorID>9FAF5F25-8883-C6DF-ADCF-3A364CBCCDEA</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>24EDB5D5-A07B-1813-85E2-141F54F5D889</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie" id="EA9B91E3-50EA-9CBA-54C1-AE268EB41EE8">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-05-28 01:29:32 UTC</createdTime>
+<generatorID>BBE6ED97-6789-9E17-CDDC-D27C85A73476</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>80D11D0E-331D-524B-0C17-4215BCBC26BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

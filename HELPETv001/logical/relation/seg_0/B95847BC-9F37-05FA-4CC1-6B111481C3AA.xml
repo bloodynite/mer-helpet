@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reg_prov" directorySegmentName="seg_0" id="A79AE632-F132-D10E-85C6-6233E33B9F19">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reg_comuna" directorySegmentName="seg_0" id="B95847BC-9F37-05FA-4CC1-6B111481C3AA">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:25:58 UTC</createdTime>
+<createdTime>2022-05-28 01:24:06 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E12954B5-B4C4-682F-1A28-93A480937593</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>D7749E04-D8CF-13B4-B883-8EEA4E8C782D</targetEntity>
+<targetEntity>DA1A2F60-37A4-57C5-EA32-22BD67A7C98E</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

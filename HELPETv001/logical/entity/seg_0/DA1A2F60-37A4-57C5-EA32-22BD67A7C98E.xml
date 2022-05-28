@@ -45,17 +45,17 @@ CO0004]]></commentInRDBMS>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ciudad" id="AE0B960D-E37B-B9AE-7C37-30B8C12FF0A1">
+<Attribute name="id_region" id="4E41348A-B5BF-BB0E-24D1-F24CA0F80ADC">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:26:49 UTC</createdTime>
+<createdTime>2022-05-28 01:24:06 UTC</createdTime>
 <comment><![CDATA[EJ:
-CI0003]]></comment>
-<generatorID>D08C32DF-5352-9B4E-0C27-F5D844149DA7</generatorID>
+R001]]></comment>
+<generatorID>B95847BC-9F37-05FA-4CC1-6B111481C3AA</generatorID>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
-<referedAttribute>EF854621-8DD5-ECA4-3DF4-1B068FB353A3</referedAttribute>
+<referedAttribute>C52A8ADC-C859-AEF6-2C2D-48447570E03F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

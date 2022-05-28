@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="6B24EDCA-85FC-B41C-7626-FCEE94FC415C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comuna-pub" directorySegmentName="seg_0" id="9FAF5F25-8883-C6DF-ADCF-3A364CBCCDEA">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 22:42:07 UTC</createdTime>
+<createdTime>2022-05-28 01:27:38 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
-<sourcePk>9691D654-26AA-09D7-BAFC-321E64C21F7A</sourcePk>
+<sourcePk>0E172C2A-5D0D-8701-8DC6-3A7A747A50B3</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4C2AB8F2-D364-E4DA-F81F-0EFAD549AFD3</sourceEntity>
+<sourceEntity>DA1A2F60-37A4-57C5-EA32-22BD67A7C98E</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>A1993936-8835-CA9A-6F20-AACB0F286ED9</targetEntity>
 <transferable>true</transferable>

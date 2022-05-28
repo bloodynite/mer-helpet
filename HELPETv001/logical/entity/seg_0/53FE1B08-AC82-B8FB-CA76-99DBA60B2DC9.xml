@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7749E04-D8CF-13B4-B883-8EEA4E8C782D" name="PROVINCIA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53FE1B08-AC82-B8FB-CA76-99DBA60B2DC9" name="TIPO_SUB">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:20:35 UTC</createdTime>
+<createdTime>2022-05-25 04:25:35 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
@@ -15,26 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_provincia" id="8262F524-9F77-3B2C-750B-2EF12A5134CA">
+<Attribute name="id_tipo_sub" id="099F9DF6-5184-22A3-BFA5-C504AA705C41">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:20:46 UTC</createdTime>
-<comment><![CDATA[EJ:
-P001]]></comment>
-<commentInRDBMS><![CDATA[EJ:
-P001]]></commentInRDBMS>
+<createdTime>2022-05-25 04:25:54 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nom_provincia" id="3F7F2B15-455E-8EE0-61E8-51BD2B5E445B">
+<Attribute name="descripcion" id="9923433F-6334-CB30-BC72-93F487B8EFE8">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:21:23 UTC</createdTime>
+<createdTime>2022-05-25 04:26:08 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
@@ -42,38 +38,34 @@ P001]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_region" id="EDE83060-AAC2-700B-51C9-A39412A9F6EA">
+<Attribute name="precio" id="FB42C27E-E27E-CB1D-3439-F2DC1881415E">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:25:58 UTC</createdTime>
-<comment><![CDATA[EJ:
-R001]]></comment>
-<generatorID>A79AE632-F132-D10E-85C6-6233E33B9F19</generatorID>
+<createdTime>2022-05-28 01:52:35 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
-<referedAttribute>C52A8ADC-C859-AEF6-2C2D-48447570E03F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0D10078B-2278-5E99-6D91-8B724C9269A2" name="PROVINCIA PK">
+<identifier id="FF598E65-2785-AACC-5354-DCDDF6E25303" name="TIPO_SUB PK">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:21:47 UTC</createdTime>
+<createdTime>2022-05-25 04:26:59 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8262F524-9F77-3B2C-750B-2EF12A5134CA</attributeRef>
+<attributeRef>099F9DF6-5184-22A3-BFA5-C504AA705C41</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
