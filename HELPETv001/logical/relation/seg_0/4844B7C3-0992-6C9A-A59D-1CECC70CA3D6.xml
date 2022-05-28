@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ciud_com" directorySegmentName="seg_0" id="D08C32DF-5352-9B4E-0C27-F5D844149DA7">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipo-subs" directorySegmentName="seg_0" id="4844B7C3-0992-6C9A-A59D-1CECC70CA3D6">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 20:26:49 UTC</createdTime>
+<createdTime>2022-05-25 04:27:12 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
-<sourcePk>E3006E79-2AEF-6C26-8E98-0736E0B8698E</sourcePk>
+<sourcePk>FF598E65-2785-AACC-5354-DCDDF6E25303</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>E8314D61-3163-37E8-37CF-6068B246313C</sourceEntity>
+<sourceEntity>53FE1B08-AC82-B8FB-CA76-99DBA60B2DC9</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>DA1A2F60-37A4-57C5-EA32-22BD67A7C98E</targetEntity>
+<targetEntity>B8BDB894-4E99-B9C7-7CF8-13A9C8401A71</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
