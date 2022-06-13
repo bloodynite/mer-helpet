@@ -26,9 +26,8 @@ ES001]]></commentInRDBMS>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="8534E118-264E-22B0-BAB7-E26C44C56B46">
 <createdBy>bloodyNitePC</createdBy>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6A5184C-314A-8480-E615-DF0ADC26BA2C" name="TIPO_PUB">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6A5184C-314A-8480-E615-DF0ADC26BA2C" name="TIPO_PUBLI">
 <createdBy>bloodyNitePC</createdBy>
 <createdTime>2022-05-22 21:01:07 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
@@ -24,9 +24,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="desc_tipo" id="EABBDE89-8ABB-3AF8-510E-DE8AA96095F7">
 <createdBy>bloodyNitePC</createdBy>
