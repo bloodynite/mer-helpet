@@ -25,8 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_creacion" id="EC9D6447-0558-F45D-74EA-2A730131D4A6">
 <createdBy>bloodyNitePC</createdBy>
@@ -37,9 +37,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="titulo" id="38B16470-C091-F666-1A95-FD91C819DF76">
 <createdBy>bloodyNitePC</createdBy>
@@ -93,32 +92,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="coordenadas" id="79852343-B2C1-9287-C295-901C308C772F">
-<createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 21:37:07 UTC</createdTime>
-<ownerDesignName>HELPETv001</ownerDesignName>
-<engineerTo>
-<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="imagenes" id="F4DEAC64-098F-992B-8AE2-BEBA920EB2DD">
-<createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-22 21:34:51 UTC</createdTime>
-<ownerDesignName>HELPETv001</ownerDesignName>
-<engineerTo>
-<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="estado_publi" id="35B34C7B-3E45-FDAA-F259-55A68649300E">
 <createdBy>bloodyNitePC</createdBy>
 <createdTime>2022-05-22 20:59:36 UTC</createdTime>
@@ -133,6 +106,85 @@ PAUSADA: P]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitud" id="853FF216-9276-934B-C4E3-4B4634A6D64D">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:57:06 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitud" id="FFA050D3-2AAC-1B62-5CFB-DDE0FCCDBAEE">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:57:27 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen1" id="469D013B-A3A0-542D-D855-7A7AE128891F">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:57:48 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen2" id="38474E0D-50FD-F039-A0DE-241BF274E3A4">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:58:07 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen3" id="CEA7AB11-61A1-5D78-E93F-7172830F6E15">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:58:19 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imagen4" id="80B0C44E-0919-F4C4-ECBD-C4463D9726C1">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 08:58:22 UTC</createdTime>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="1536ECB6-EE2E-6E48-BF24-C32B25CBF624">
@@ -187,9 +239,8 @@ PAUSADA: P]]></commentInRDBMS>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_usuario" id="6DA743B7-6BF8-6B92-BD6E-9B0B723183AB">
 <createdBy>bloodyNitePC</createdBy>
@@ -203,9 +254,8 @@ PAUSADA: P]]></commentInRDBMS>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
 <dataTypeSize>36</dataTypeSize>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_tipo" id="6B2BE8A7-6AD9-B80B-6430-E3AF147D8DF5">
 <createdBy>bloodyNitePC</createdBy>
@@ -218,9 +268,8 @@ PAUSADA: P]]></commentInRDBMS>
 <referedAttribute>46B71C7A-98E8-3356-F292-0B23332CB516</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_comuna" id="FE247EB0-E737-2FE4-B6DE-FEE589139379">
 <createdBy>bloodyNitePC</createdBy>
@@ -235,7 +284,7 @@ CO0004]]></comment>
 <referedAttribute>24EDB5D5-A07B-1813-85E2-141F54F5D889</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
@@ -250,9 +299,8 @@ CO0004]]></comment>
 <referedAttribute>80D11D0E-331D-524B-0C17-4215BCBC26BC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

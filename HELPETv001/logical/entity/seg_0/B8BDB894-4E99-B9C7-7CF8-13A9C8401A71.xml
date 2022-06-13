@@ -15,21 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="E1D819C3-FCC5-9485-89ED-4116A700F5B9">
+<Attribute name="id_subscripcion" id="AA40262A-940E-E942-7869-5549889EEC44">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-25 04:27:48 UTC</createdTime>
-<generatorID>CF437D73-E309-0D25-B8BD-68574C27D379</generatorID>
+<createdTime>2022-06-13 09:02:32 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
-<referedAttribute>1E698EE4-1247-3AAE-F53F-7912468676F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="f_desde" id="B16D01D8-01F4-3430-0EFE-2E3CC23B41C1">
 <createdBy>bloodyNitePC</createdBy>
@@ -40,9 +37,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="f_hasta" id="CC852D1F-F0C9-7902-3810-9ECF0B463E1D">
 <createdBy>bloodyNitePC</createdBy>
@@ -53,9 +49,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_tipo_sub" id="F982745A-E656-3706-6DAE-68EEC4F32EAF">
 <createdBy>bloodyNitePC</createdBy>
@@ -68,22 +63,21 @@
 <referedAttribute>099F9DF6-5184-22A3-BFA5-C504AA705C41</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E463617C-AC49-1549-37F8-6B29B6D384BA" name="SUBSCRIPCION PK">
+<identifier id="824EF87B-E145-9E2E-A61A-CBFDC228C696" name="SUBSCRIPCION PK">
 <createdBy>bloodyNitePC</createdBy>
-<createdTime>2022-05-25 04:27:55 UTC</createdTime>
+<createdTime>2022-06-13 09:03:18 UTC</createdTime>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E1D819C3-FCC5-9485-89ED-4116A700F5B9</attributeRef>
+<attributeRef>AA40262A-940E-E942-7869-5549889EEC44</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

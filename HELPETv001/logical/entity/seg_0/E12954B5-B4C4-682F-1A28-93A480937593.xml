@@ -20,17 +20,14 @@
 <createdTime>2022-05-22 20:14:56 UTC</createdTime>
 <comment><![CDATA[EJ:
 R001]]></comment>
-<commentInRDBMS><![CDATA[EJ:
-R001]]></commentInRDBMS>
 <ownerDesignName>HELPETv001</ownerDesignName>
 <engineerTo>
 <item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nom_region" id="C46398C0-DE70-0AA0-AF2B-1096BFDB7E28">
 <createdBy>bloodyNitePC</createdBy>

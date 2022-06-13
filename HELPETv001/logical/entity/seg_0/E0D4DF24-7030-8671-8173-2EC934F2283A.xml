@@ -133,8 +133,22 @@
 <referedAttribute>98E19707-53A7-A88F-96D0-9EAF26A1477B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_subscripcion" id="03E305A2-2F22-AB5E-ACFC-C07758736153">
+<createdBy>bloodyNitePC</createdBy>
+<createdTime>2022-06-13 09:03:34 UTC</createdTime>
+<generatorID>4C1FE9C1-6169-15D9-863A-66E7F250F8D5</generatorID>
+<ownerDesignName>HELPETv001</ownerDesignName>
+<engineerTo>
+<item key="CDC121E0-AAB1-92B2-773D-E7A626D9F76A" value="true"/>
+</engineerTo>
+<referedAttribute>AA40262A-940E-E942-7869-5549889EEC44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
